@@ -1,5 +1,6 @@
 import { createDirectiveDefinitionMap } from "@angular/compiler/src/render3/partial/directive";
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
+import { IProperty } from "../IProperty.interface";
 
 @Component({
     selector:'app-property-card',
@@ -11,11 +12,7 @@ import { Component } from "@angular/core";
 )
 export class PropertyCardComponent
 {
-  Property:any ={
-    "Type":"Lig",
-    "Id":1,
-    "Price":12000,
-    "Name":"Rahul"
-
-  }
+  @Input()
+  property_name!: IProperty;
+  constructor() { }
 }

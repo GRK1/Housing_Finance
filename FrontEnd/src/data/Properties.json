@@ -1,0 +1,29 @@
+[{
+    "Type":"Lig",
+    "Id":1,
+    "Price":12000,
+    "Name":"Rahul"
+
+  },
+  {
+    "Type":"Lig2",
+    "Id":2,
+    "Price":13000,
+    "Name":"RK"
+
+  },
+  {
+    "Type":"Lig3",
+    "Id":2,
+    "Price":13000,
+    "Name":"RK"
+
+  },
+  {
+    "Type":"Lig4",
+    "Id":2,
+    "Price":13000,
+    "Name":"RK"
+
+  }
+]
